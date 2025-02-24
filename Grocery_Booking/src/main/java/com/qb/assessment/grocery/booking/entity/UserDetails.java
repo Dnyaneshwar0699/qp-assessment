@@ -1,6 +1,6 @@
 package com.qb.assessment.grocery.booking.entity;
 
-import org.springframework.data.jpa.repository.config.EnableJpaAuditing;
+import org.hibernate.envers.Audited;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -11,7 +11,6 @@ import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import org.hibernate.envers.Audited;
 
 @Data
 @NoArgsConstructor
